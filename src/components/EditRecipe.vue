@@ -1,7 +1,7 @@
 <!-- EditRecipe.vue -->
 <template>
     <div>
-      <h2>Edit Recipe</h2>
+      <h2>Editar Receita</h2>
       <form @submit.prevent="$emit('update', { name, description })">
         <label for="name">Recipe Name</label>
         <input type="text" id="name" v-model="name">
